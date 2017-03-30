@@ -31,3 +31,4 @@ Route::group(['middleware' => ['web']], function () {
 });
 
 Route::get('/article','ArticleController@index');
+Route::get('/index','WebController@index');
